@@ -4,4 +4,4 @@ Responsive Web Design Projects - Build a Survey Form
 
 It's the Second challenge for Freecodecamp.
 
-https://kelvinfm.github.io/beatles-tribute-page/
+https://kelvinfm.github.io/survey-form/.
