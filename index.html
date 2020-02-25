@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Survey Form</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="survey.css">
+  </head>
+
+	<body>
+		
+		<!-- Story #1 -->
+		<h1 id="title">Smartphones Brands</h1>
+    
+		<!-- Story #2 -->
+		<p id="description">This survey allows measuring customer preference</p>
+    
+		<!-- Story #3 -->
+		<form id="survey-form">
+		
+			<!-- Story #4 -->
+			<label id="name-label">Name:</label>
+			<input type="text" name="name" id="name" placeholder="First Name" required><br>
+
+			<!-- Story #5 -->
+			<label id="email-label">Email:</label>
+			<input type="email" name="email" id="email" placeholder="Best Email" required><br>
+
+			<!-- Story #6  ?????????? -->
+
+			<!-- Story #7 -->
+			<label id="number-label">Number:</label>
+			<input type="number" name="number" id="number" min="0" max="10" placeholder="Number" required><br>
+			
+			<!-- Story #8  ?????????? -->
+			
+			<!-- Story #9  ?????????? -->
+
+			<!-- Story #10 -->
+
+			<label id="dropdown-label">Brands:</label>
+			<select id="dropdown" name="brands">
+				<option value="Huawei">Huawei</option>
+				<option value="samsung">Samsung</option>
+				<option value="lg">LG</option>
+				<option value="xiaomi">Xiaomi</option>
+				<option value="other">Other</option>
+			</select><br>
+
+			<label id="additional-comments-label">Additional Comments:</label>
+			<textarea name="additional_comments" placeholder="Additional Comments"></textarea><br>
+
+			<label>Gender:</label>
+			<input type="radio" id="male" name="gender" value="male">Male<br>
+			<input type="radio" id="female" name="gender" value="female">Female<br>
+			<input type="radio" id="other" name="gender" value="other">Other<br><br>
+
+			<label>Age:</label>
+			<input type="checkbox" name="age1" value="00 - 30">0 -  30<br>
+			<input type="checkbox" name="age2" value="31 - 60">31 - 60<br>
+			<input type="checkbox" name="age3" value="61 - 99">61 - 99<br><br>
+  
+			<input type="submit" id="submit">
+    
+		</form>
+		
+		<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+	</body>
+
+</html>
